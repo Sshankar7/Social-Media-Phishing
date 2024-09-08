@@ -1,0 +1,228 @@
+body {
+    background-image: linear-gradient( rgba(0,0,0,.5), rgba(0,0,0,.5) ), url('../img/0.jpg');
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+svg {
+    display: block;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+}
+.row {
+    margin: 0 auto;
+    width: 40%;
+    top: 0;
+}
+.wrapper
+{
+    width:600px;
+    margin:0 auto;
+    padding:20px;
+    text-align:center;
+}
+
+.banner h1 {
+    font-size: 38px;
+      font-family: 'Open Sans', arial;
+    -webkit-font-smoothing: antialiased;
+    color: #727272;
+    font-weight: 300;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.banner h2 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.banner h2 {
+    font-family: 'Open Sans', arial;
+    -webkit-font-smoothing: antialiased;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+h2 {
+    font-size: 14px;
+    color: #727272;
+    margin: 0 0 15px;
+}
+h1, h2 {
+    -webkit-animation-duration: 0.1s;
+    -webkit-animation-name: fontfix;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 0;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    -webkit-margin-before: 0.83em;
+    -webkit-margin-after: 0.83em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+
+.form-signin
+{
+    max-width: 330px;
+    margin: 0 auto;
+}
+.form-signin .form-signin-heading, .form-signin .checkbox
+{
+    margin-bottom: 10px;
+}
+.form-signin .checkbox
+{
+    font-weight: normal;
+}
+.form-signin .form-control
+{
+    position: relative;
+    font-size: 16px;
+    height: auto;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.form-signin .form-control:focus
+{
+    z-index: 2;
+}
+.form-signin input[type="email"]
+{
+    color: #666;
+    background-color: transparent;
+    white-space: nowrap;
+    text-align: left;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 1.25rem;
+    border-radius: 0px;
+    border-color: #262626;
+}
+.form-signin input[type="password"]
+{
+    color: #666;
+    background-color: transparent;
+    margin-top:6px;
+    margin-bottom: 10px;
+    white-space: nowrap;
+    text-align: left;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 1.25rem;
+    border-radius: 0px;
+    border-color: #262626;
+}
+.form-signin input[type="submit"]
+{
+    padding: 0 !important;
+    height: 36px;
+    border-width: 1px;
+}
+button {
+    border-color: #0067b8 !important;
+    background-color: #0067b8 !important;
+}
+.account-wall
+{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:46%;
+    min-height: 364px;
+    min-width: 320px;
+    max-width: 412px;
+    width: calc(100% - 40px);
+    padding: 36px;
+    margin-bottom: 28px;
+    background-color: #fff;
+    -webkit-box-shadow: 0 2px 3px rgba(0,0,0,.55);
+    -moz-box-shadow: 0 2px 3px rgba(0,0,0,.55);
+    box-shadow: 0 2px 3px rgba(0,0,0,.55);
+    border: 1px solid #818c94;
+    border: 1px solid rgba(0,0,0,.4);
+}
+.loginHeader {
+    padding: 0;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 1.75rem;
+}
+.account {
+    font-size: 12px;
+    padding-top: 20px;
+    float: left;
+    font-weight: normal !important;
+
+}
+
+.login-title
+{
+    color: #555;
+    font-size: 18px;
+    font-weight: 400;
+    display: block;
+}
+.logo
+{
+    max-width: 256px;
+    height: 24px;
+}
+img {
+        vertical-align: middle;
+        border: 0;
+}
+.need-help
+{
+    margin-top: 10px;
+}
+.new-account
+{
+    display: block;
+    margin-top: 10px;
+}
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    overflow: visible;
+    z-index: 99;
+    clear: both;
+    background-color: rgba(0,0,0,.6);
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#99000000',endColorstr='#99000000');
+}
+div.footerNode {
+    margin: 0;
+    float: right;
+}
+.text-secondary {
+    color: rgba(0,0,0,.7);
+    font-size: 13px;
+}
+div.footerNode span {
+    color: #fff;
+    font-size: 12px;
+    line-height: 28px;
+    white-space: nowrap;
+    display: inline-block;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+div.footerNode a, div.footerNode span {
+    color: #fff;
+    font-size: 12px;
+    line-height: 28px;
+    white-space: nowrap;
+    display: inline-block;
+    margin-left: 8px;
+    margin-right: 8px;
+}
